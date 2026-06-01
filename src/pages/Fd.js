@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../assets/css/fd.css";
-import { Link } from "react-router-dom";
 
 import p1 from '../assets/img/f1.webp';
 import p2 from '../assets/img/s1.jpg';
@@ -27,19 +26,19 @@ function FD (){
 <div className="row g-2">
 
 <div className="col-3">
-<img src={p1} className="img-fluid thumb" onClick={() => setMainImage(p1)} />
+<img src={p1} alt="Product View 1" className="img-fluid thumb" onClick={() => setMainImage(p1)} />
 </div>
 
 <div className="col-3">
-<img src={p2} className="img-fluid thumb" onClick={() => setMainImage(p2)} />
+<img src={p2} alt="Product View 2" className="img-fluid thumb" onClick={() => setMainImage(p2)} />
 </div>
 
 <div className="col-3">
-<img src={p3} className="img-fluid thumb" onClick={() => setMainImage(p3)} />
+<img src={p3} alt="Product View 3" className="img-fluid thumb" onClick={() => setMainImage(p3)} />
 </div>
 
 <div className="col-3">
-<img src={p4} className="img-fluid thumb" onClick={() => setMainImage(p4)} />
+<img src={p4} alt="Product View 4" className="img-fluid thumb" onClick={() => setMainImage(p4)} />
 </div>
 
 </div>

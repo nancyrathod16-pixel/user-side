@@ -6,15 +6,12 @@ import h1 from '../assets/img/h2.jpeg';
 import h2 from '../assets/img/hd1.webp';
 import h3 from '../assets/img/hd2.webp';
 import h4 from '../assets/img/hd3.webp';
-import mainImage1 from '../assets/img/h2.jpeg';
-
 
 function HD (){
 
     const [mainImage1, setMainImage] = useState(h1);
     const [qty, setQty] = useState(1);
     const [size, setSize] = useState("M");
-    const [color, setColor] = useState("#000");
 
     return(
         <>
@@ -29,19 +26,19 @@ function HD (){
 <div className="row g-2">
 
 <div className="col-3">
-<img src={h1} className="img-fluid thumb" onClick={() => setMainImage(h1)} />
+<img src={h1} alt="Jewelry View 1" className="img-fluid thumb" onClick={() => setMainImage(h1)} />
 </div>
 
 <div className="col-3">
-<img src={h2} className="img-fluid thumb" onClick={() => setMainImage(h2)} />
+ <img src={h2} alt="Jewelry View 2" className="img-fluid thumb" onClick={() => setMainImage(h2)} />
 </div>
 
 <div className="col-3">
-<img src={h3} className="img-fluid thumb" onClick={() => setMainImage(h3)} />
+<img src={h3} alt="Jewelry View 3" className="img-fluid thumb" onClick={() => setMainImage(h3)} />
 </div>
 
 <div className="col-3">
-<img src={h4} className="img-fluid thumb" onClick={() => setMainImage(h4)} />
+<img src={h4} alt="Jewelry View 4" className="img-fluid thumb" onClick={() => setMainImage(h4)} />
 </div>
 
 </div>
