@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../assets/css/fd.css";
+import { Link } from "react-router-dom";
+
 
 import p1 from '../assets/img/f1.webp';
 import p2 from '../assets/img/s1.jpg';
