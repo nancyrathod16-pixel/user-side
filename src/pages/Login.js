@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/css/login.css";
-import { Link } from "react-router-dom";
 
 function Login(){
     return(
@@ -29,11 +28,11 @@ function Login(){
 
                 <div className="login-links">
                     <p className="mt-3">
-                        <a href="#">Forgot Password?</a>
+                        <a href="/">Forgot Password?</a>
                     </p>
                     <p>
                         Don’t have an account? 
-                        <a href="regestration nav.html">Create Account</a>
+                        <a href="/">Create Account</a>
                     </p>
                 </div>
 
