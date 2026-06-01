@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../assets/css/footer.css";
 
 function Footer (){
@@ -18,29 +17,29 @@ function Footer (){
                 </p>
 
                 <div className="social-icons mt-4">
-                    <a href="#"><i className="fab fa-instagram"></i></a>
-                    <a href="#"><i className="fab fa-facebook-f"></i></a>
-                    <a href="#"><i className="fab fa-twitter"></i></a>
-                    <a href="#"><i className="fab fa-youtube"></i></a>
+                    <a href="/"><i className="fab fa-instagram"></i></a>
+                    <a href="/"><i className="fab fa-facebook-f"></i></a>
+                    <a href="/"><i className="fab fa-twitter"></i></a>
+                    <a href="/"><i className="fab fa-youtube"></i></a>
                 </div>
             </div>
 
             {/* Quick Links */}
             <div className="col-md-2 mb-4">
                 <div className="footer-heading">EXPLORE</div>
-                <a href="#" className="footer-link">Home</a>
-                <a href="#" className="footer-link">Collection</a>
-                <a href="#" className="footer-link">New Arrivals</a>
-                <a href="#" className="footer-link">Best Sellers</a>
+                <a href="/" className="footer-link">Home</a>
+                <a href="/" className="footer-link">Collection</a>
+                <a href="/" className="footer-link">New Arrivals</a>
+                <a href="/" className="footer-link">Best Sellers</a>
             </div>
 
             {/* Support */}
             <div className="col-md-3 mb-4">
                 <div className="footer-heading">SUPPORT</div>
-                <a href="#" className="footer-link">Contact Us</a>
-                <a href="#" className="footer-link">Shipping & Returns</a>
-                <a href="#" className="footer-link">Privacy Policy</a>
-                <a href="#" className="footer-link">Terms & Conditions</a>
+                <a href="/" className="footer-link">Contact Us</a>
+                <a href="/" className="footer-link">Shipping & Returns</a>
+                <a href="/" className="footer-link">Privacy Policy</a>
+                <a href="/" className="footer-link">Terms & Conditions</a>
             </div>
 
             {/* Newsletter */}

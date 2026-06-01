@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/css/contact.css";
-import { Link } from "react-router-dom";
 
 function Contact(){
     return(
@@ -62,9 +61,9 @@ function Contact(){
         </div>
 
         <div className="contact-social">
-         <a href="https://instagram.com"><i className="fa-brands fa-instagram"></i></a>
-        <a href="https://facebook.com"><i className="fa-brands fa-facebook-f"></i></a>
-        <a href="https://twitter.com"><i className="fa-brands fa-x-twitter"></i></a>
+         <a href="/"><i className="fa-brands fa-instagram"></i></a>
+        <a href="/"><i className="fa-brands fa-facebook-f"></i></a>
+        <a href="/"><i className="fa-brands fa-x-twitter"></i></a>
         </div>
 
       </div>
