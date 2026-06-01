@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/css/help.css";
-import { Link } from "react-router-dom";
 
 function Help(){
     return(

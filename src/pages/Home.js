@@ -47,7 +47,7 @@ function Home() {
 
       <div className="col-md-4">
     <div className="product-card-home">
-        <img src={image1} className="w-100 product-img-home" />
+        <img src={image1} alt="Skincare Product" className="w-100 product-img-home" />
         <div className="product-body">
             <h5 className="product-title-home">SKINCARE</h5>
             <br />
@@ -58,7 +58,7 @@ function Home() {
 
 <div className="col-md-4">
     <div className="product-card-home">
-        <img src={image2} className="w-100 product-img-home" />
+        <img src={image2} alt="Fashion Product" className="w-100 product-img-home" />
         <div className="product-body">
             <h5 className="product-title-home">FASHION</h5>
             <br />
@@ -71,7 +71,7 @@ function Home() {
 
 <div className="col-md-4">
     <div className="product-card-home">
-        <img src={image3} className="w-100 product-img-home" />
+       <img src={image3} alt="Jewellery Product" className="w-100 product-img-home" />
         <div className="product-body">
             <h5 className="product-title-home">FRAGRANCE</h5>
             <br />
@@ -103,7 +103,7 @@ function Home() {
 
             <div className="carousel-item active">
                 <div className="testimonial-card text-center">
-                    <img src={image4} className="client-img" />
+                    <img src={image4} alt="Sophia Martin" className="client-img" />
 
                     <div className="stars">
                         <i className="fas fa-star"></i>
@@ -125,7 +125,7 @@ function Home() {
 
             <div className="carousel-item">
                 <div className="testimonial-card text-center">
-                    <img src={image5} className="client-img" />
+                    <img src={image5} alt="Emma Williams" className="client-img" />
 
                     <div className="stars">
                         <i className="fas fa-star"></i>
@@ -147,7 +147,7 @@ function Home() {
 
             <div className="carousel-item">
                 <div className="testimonial-card text-center">
-                    <img src={image6} className="client-img" />
+                    <img src={image6} alt="Isabella Rossi" className="client-img" />
 
                     <div className="stars">
                         <i className="fas fa-star"></i>
