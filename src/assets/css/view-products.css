@@ -1,0 +1,93 @@
+/* ================= PAGE TITLE ================= */
+.page-title {
+    text-align: center;
+    padding: 80px 0 40px;
+}
+
+.page-title h1 {
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+.page-title p {
+    color: #bbb;
+    letter-spacing: 3px;
+}
+
+
+/* ================= PRODUCT CARD ================= */
+.product-card-view {
+    background: #111;
+    border: 1px solid #222;
+    overflow: hidden;
+    transition: 0.5s;
+    position: relative;
+
+    /* ✅ FIX: equal height cards */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card-view:hover {
+    transform: translateY(-12px);
+    border: 1px solid #d4af37;
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.4);
+}
+
+
+/* ================= IMAGE ================= */
+.product-img-view {
+    width: 100%;
+    height: 250px;
+
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.product-card-view:hover .product-img-view {
+    transform: scale(1.1);
+}
+
+
+/* ================= BODY ================= */
+.product-body {
+    padding: 25px;
+    text-align: center;
+
+    /* ✅ keeps spacing consistent */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* ================= TEXT ================= */
+.product-card-view .product-body .product-title {
+    font-size: 17px !important;
+    letter-spacing: 1px;
+}
+
+.product-card-view .product-body .product-price {
+    font-size: 17px !important;
+    color: #d4af37;
+    margin: 15px 0;
+}
+
+
+/* ================= BUTTON ================= */
+.luxury-btn {
+    padding: 8px 25px;
+    border: 1px solid #d4af37;
+    background: transparent;
+    color: #d4af37;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+
+.luxury-btn:hover {
+    background: #d4af37;
+    color: black;
+}

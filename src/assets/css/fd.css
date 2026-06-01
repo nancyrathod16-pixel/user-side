@@ -1,0 +1,188 @@
+/* PRODUCT */
+.product-wrapper {
+    background: #000;
+    padding: 60px 0;
+}
+
+/* IMAGE */
+.main-img {
+    width: 100%;
+    max-width: 600px;   /* 🔥 increased width */
+    height: 480px;      /* 🔥 slightly reduced height */
+    object-fit: contain;
+    background: #000;
+}
+
+/* FIX THUMBNAIL ROW */
+.row.g-2 {
+    display: flex;
+    flex-wrap: nowrap;   /* 🔥 THIS FIXES YOUR ISSUE */
+    gap: 10px;
+}
+
+/* REMOVE BOOTSTRAP STRETCH */
+.col-3 {
+    flex: 0 0 auto;
+    width: auto;
+    padding: 0;
+}
+
+/* PERFECT THUMBNAIL SIZE */
+.thumb {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+/* HOVER */
+.thumb:hover {
+    opacity: 1;
+    border-color: #d4af37;
+}
+
+/* TEXT */
+
+.product-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 24px;
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+.shipping-text {
+    font-size: 14px;
+    color: #aaa;
+    border-bottom: 1px solid #444;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+/* SIZE BUTTON */
+
+.size-btn {
+    border: 1px solid #666;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.size-btn:hover {
+    border-color: #d4af37;
+    color: #d4af37;
+}
+
+.size-btn.active {
+    background: #fff;
+    color: #000;
+}
+
+/* QUANTITY */
+
+.qty-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #555;
+    width: 140px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+.qty-btn {
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: white;
+}
+
+/* BUTTONS */
+
+.btn-cart {
+    width: 100%;
+    border: 1px solid #fff;
+    background: transparent;
+    color: white;
+    padding: 14px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn-cart:hover {
+    background: #fff;
+    color: #000;
+}
+
+.btn-buy {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    padding: 14px;
+    margin-top: 12px;
+    transition: 0.3s;
+}
+
+.btn-buy:hover {
+    background: #d4af37;
+    color: #000;
+}
+
+.more-details {
+    margin-top: 12px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.more-details i {
+    margin-left: 5px;
+}
+
+/* ===================== */
+/* 🔥 REQUIRED ADDITIONS */
+/* ===================== */
+
+/* BRAND TEXT */
+.brand-text {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #aaa;
+}
+
+/* PRICE BOX ALIGNMENT */
+.price-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.discount {
+    color: #ff4d4d;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 28px;
+}
+
+/* COLOR SELECTOR */
+.color-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.color-circle.active {
+    border: 2px solid #d4af37;
+    box-shadow: 0 0 8px #d4af37;
+}

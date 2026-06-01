@@ -1,0 +1,110 @@
+/* HERO */
+
+.help-hero{
+height:55vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.help-hero h1{
+font-family:Playfair Display;
+font-size:60px;
+letter-spacing:6px;
+color:#d4af37;
+}
+
+/* HELP CATEGORIES */
+
+.help-section{
+padding:120px 0;
+}
+
+.help-card{
+border:1px solid #222;
+padding:40px;
+text-align:center;
+transition:.4s;
+height:100%;
+background:#0a0a0a;   /* darker luxury black */
+box-shadow:0 0 0 transparent;
+}
+
+.help-card i{
+font-size:28px;
+color:#d4af37;
+margin-bottom:15px;
+}
+
+.help-card h5{
+letter-spacing:2px;
+margin-bottom:10px;
+}
+
+.help-card p{
+color:#bbb;
+font-size:14px;
+}
+
+.help-card:hover{
+border-color:#d4af37;
+transform:translateY(-5px);
+}
+
+/* FAQ */
+
+.faq-section{
+padding:100px 0;
+}
+
+.accordion-button{
+background:#111 !important;
+color:white !important;
+border:none;
+box-shadow:none !important;
+}
+
+.accordion-button:not(.collapsed){
+background:#111 !important;
+color:#d4af37 !important;
+}
+
+.accordion-body{
+background:#000 !important;
+color:#bbb;
+}
+
+/* CLIENT SERVICE */
+
+.client-service{
+padding:100px 0;
+text-align:center;
+}
+
+.client-service h3{
+font-family:Playfair Display;
+letter-spacing:4px;
+margin-bottom:20px;
+}
+
+.client-service p{
+color:#bbb;
+margin-bottom:30px;
+}
+
+.help-btn{
+border:1px solid #d4af37;
+color:#d4af37;
+padding:12px 35px;
+background:transparent;
+letter-spacing:2px;
+}
+
+.help-btn:hover{
+background:#d4af37;
+color:black;
+}
+        /* FULL PAGE BLACK */
+
+

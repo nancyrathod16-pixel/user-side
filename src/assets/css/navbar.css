@@ -1,0 +1,111 @@
+ body {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .luxury-navbar {
+            background-color: #000;
+            padding: 18px 0;
+            border-bottom: 1px solid #d4af37;
+        }
+
+        /* Center Brand Text */
+        .luxury-brand {
+            color: white;
+            font-size: 28px;
+            letter-spacing: 6px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .luxury-brand:hover {
+            color: #d4af37;
+        }
+
+        /* Nav Links */
+        .luxury-navbar .nav-link {
+            color: #fff;
+            margin: 0 15px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+
+        .luxury-navbar .nav-link:hover {
+            color: #d4af37;
+        }
+
+        /* Search */
+        .luxury-search input {
+            background: transparent;
+            border: 1px solid #d4af37;
+            color: white;
+        }
+
+        .luxury-search input::placeholder {
+            color: #aaa;
+        }
+
+        .luxury-search button {
+            border: 1px solid #d4af37;
+            color: #d4af37;
+        }
+
+        .luxury-search button:hover {
+            background-color: #d4af37;
+            color: black;
+        }
+
+        /* Icons */
+        .luxury-icon {
+            color: white;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .luxury-icon:hover {
+            color: #d4af37;
+        }
+
+       /* Remove white flash / focus background */
+.dropdown-menu {
+    background-color: #111 !important;
+    border: 1px solid #d4af37 !important;
+}
+
+/* Keep text white always */
+.dropdown-item {
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+/* On hover */
+.dropdown-item:hover {
+    background-color: #d4af37 !important;
+    color: #000 !important;
+}
+
+/* Remove click (active/focus) white color */
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: #111 !important;
+    color: #fff !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+    body {
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+            background-color: #000;
+        }
+    html, body, #root {
+    background-color: #000 !important;
+    color: #fff;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#root {
+    font-family: 'Playfair Display', serif;
+}

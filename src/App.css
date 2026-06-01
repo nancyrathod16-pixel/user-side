@@ -1,0 +1,434 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ body {
+          font-family: 'Playfair Display', serif;
+           background-color: #000;
+        }
+
+        .luxury-navbar {
+            background-color: #000;
+            padding: 18px 0;
+            border-bottom: 1px solid #d4af37;
+        }
+
+        /* Center Brand Text */
+        .luxury-brand {
+            color: white;
+            font-size: 28px;
+            letter-spacing: 6px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .luxury-brand:hover {
+            color: #d4af37;
+        }
+
+        /* Nav Links */
+        .luxury-navbar .nav-link {
+            color: #fff !important;
+            margin: 0 15px;
+            font-size: 15px;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+
+        .luxury-navbar .nav-link:hover {
+            color: #d4af37 !important;
+        }
+
+        /* Search */
+        .luxury-search input {
+            background: transparent;
+            border: 1px solid #d4af37;
+            color: white;
+        }
+
+        .luxury-search input::placeholder {
+            color: #aaa;
+        }
+
+        .luxury-search button {
+            border: 1px solid #d4af37;
+            color: #d4af37;
+        }
+
+        .luxury-search button:hover {
+            background-color: #d4af37;
+            color: black;
+        }
+
+        /* Icons */
+        .luxury-icon {
+            color: white;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .luxury-icon:hover {
+            color: #d4af37;
+        }
+
+        .dropdown-menu {
+            background-color: #111;
+            border: 1px solid #d4af37;
+        }
+
+        .dropdown-item {
+            color: white;
+        }
+
+        .dropdown-item:hover {
+            background-color: #d4af37;
+            color: black;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+            background-color: #000;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            height: 100vh;
+            background: url('img/bg1.jpg') no-repeat center center/cover;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Dark Overlay */
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .hero-content {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-content h1 {
+            font-size: 70px;
+            letter-spacing: 8px;
+            font-weight: 700;
+        }
+
+        .hero-content p {
+            font-size: 20px;
+            letter-spacing: 3px;
+            margin-top: 20px;
+            color: #ddd;
+        }
+
+        .hero-btn {
+            margin-top: 35px;
+            padding: 12px 40px;
+            border: 1px solid #d4af37;
+            color: #d4af37;
+            background: transparent;
+            font-size: 16px;
+            letter-spacing: 2px;
+            transition: 0.4s;
+        }
+
+        .hero-btn:hover {
+            background-color: #d4af37;
+            color: black;
+        }
+
+        /* Scroll Down Indicator */
+        .scroll-down {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+
+        body {
+            background: #000;
+            font-family: 'Playfair Display', serif;
+            color: white;
+        }
+
+        /* Section Title */
+        .section-title {
+            text-align: center;
+            padding: 80px 0 50px;
+        }
+
+        .section-title h2 {
+            font-size: 40px;
+            letter-spacing: 6px;
+        }
+
+        .section-title p {
+            color: #bbb;
+            letter-spacing: 3px;
+        }
+
+        /* Product Card */
+        .product-card {
+            background: #111;
+            border: 1px solid #222;
+            overflow: hidden;
+            transition: 0.4s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            border: 1px solid #d4af37;
+        }
+
+        .product-img {
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .product-body {
+            padding: 25px;
+            text-align: center;
+        }
+
+        .product-title {
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+
+        .product-price {
+            color: #d4af37;
+            margin: 15px 0;
+            font-size: 18px;
+        }
+
+        .luxury-btn {
+            padding: 8px 25px;
+            border: 1px solid #d4af37;
+            background: transparent;
+            color: #d4af37;
+            letter-spacing: 2px;
+            transition: 0.4s;
+        }
+
+        .luxury-btn:hover {
+            background: #d4af37;
+            color: black;
+        }
+
+        body {
+            background: #000;
+            font-family: 'Playfair Display', serif;
+            color: white;
+        }
+
+        /* Section */
+        .testimonial-section {
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .section-title h2 {
+            font-size: 40px;
+            letter-spacing: 6px;
+        }
+
+        .section-title p {
+            color: #bbb;
+            letter-spacing: 3px;
+            margin-bottom: 60px;
+        }
+
+        /* Card */
+        .testimonial-card {
+            background: #111;
+            padding: 50px 40px;
+            border: 1px solid #222;
+            max-width: 750px;
+            margin: auto;
+            transition: 0.4s;
+        }
+
+        .testimonial-card:hover {
+            border: 1px solid #d4af37;
+            transform: translateY(-8px);
+        }
+
+        /* Client Image */
+        .client-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #d4af37;
+            margin-bottom: 25px;
+        }
+
+        /* Stars */
+        .stars i {
+            color: #d4af37;
+            margin: 3px;
+        }
+
+        /* Text */
+        .quote {
+            font-size: 20px;
+            line-height: 1.8;
+            color: #ddd;
+            margin: 25px 0;
+        }
+
+        .client-name {
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+
+        .client-role {
+            font-size: 14px;
+            color: #d4af37;
+            letter-spacing: 3px;
+        }
+
+        /* Carousel Indicators */
+        .carousel-indicators [data-bs-target] {
+            background-color: #d4af37;
+        }
+
+        .luxury-footer {
+            background: #000;
+            color: white;
+            padding: 80px 0 30px;
+            border-top: 1px solid #d4af37;
+        }
+
+        /* Brand */
+        .footer-brand {
+            font-size: 28px;
+            letter-spacing: 6px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        /* Headings */
+        .footer-heading {
+            font-size: 18px;
+            letter-spacing: 3px;
+            margin-bottom: 25px;
+            color: #d4af37;
+        }
+
+        /* Links */
+        .footer-link {
+            display: block;
+            color: #bbb;
+            text-decoration: none;
+            margin-bottom: 12px;
+            transition: 0.3s;
+        }
+
+        .footer-link:hover {
+            color: #d4af37;
+        }
+
+        /* Newsletter */
+        .newsletter-input {
+            background: transparent;
+            border: 1px solid #d4af37;
+            color: white;
+        }
+
+        .newsletter-input::placeholder {
+            color: #aaa;
+        }
+
+        .newsletter-btn {
+            border: 1px solid #d4af37;
+            background: transparent;
+            color: #d4af37;
+            transition: 0.4s;
+        }
+
+        .newsletter-btn:hover {
+            background: #d4af37;
+            color: black;
+        }
+
+        /* Social Icons */
+        .social-icons a {
+            color: white;
+            margin-right: 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #d4af37;
+        }
+
+        /* Bottom */
+        .footer-bottom {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #222;
+            color: #aaa;
+            font-size: 14px;
+        }
+        .my1{
+            color: #bbb;
+        }
+       /* FULL PAGE BLACK */
+html, body, #root {
+    background-color: #000;
+    color: #fff;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,142 @@
+/* SECTION */
+.section-title{
+    text-align:center;
+    margin:100px 0 60px;
+    font-size:42px;
+    letter-spacing:4px;
+    
+}
+
+/* CARDS */
+.fashion-card{
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+}
+.fashion-card img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    transition:0.6s;
+}
+.fashion-card:hover img{
+    transform:scale(1.08);
+}
+.fashion-overlay{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding:25px;
+    background:linear-gradient(transparent, rgba(0,0,0,0.95));
+}
+
+/* MODAL */
+/* MODAL LUXURY STYLE */
+
+.modal-content {
+  background: #000 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 0;
+}
+/* Header */
+.modal-header {
+  background: #000 !important;
+  border-bottom: 1px solid #d4af37;
+}
+
+.modal-header h5 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+
+/* Close button */
+.btn-close {
+  filter: invert(1);
+  opacity: 0.8;
+}
+
+/* Body */
+.modal-body p {
+  color: #bbb;
+  margin-top: 10px;
+}
+
+.modal-body h4 {
+  color: #fff;
+  margin: 15px 0;
+}
+
+/* Image spacing */
+.modal-body img {
+  width: 80%;
+  border-radius: 2px;
+}
+.btn-gold {
+  background: #d4af37 !important;
+  color: black !important;
+  border: none !important;
+  padding: 10px 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.btn-gold:hover {
+  background: transparent !important;
+  color: #d4af37 !important;
+  border: 1px solid #d4af37 !important;
+}
+/* ===== BASE ANIMATION SYSTEM ===== */
+/* BASE FADE */
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1.2s ease forwards;
+}
+
+/* DELAYS (clean & consistent) */
+.fade-delay-1 { animation-delay: 0.4s; }
+.fade-delay-2 { animation-delay: 0.7s; }
+.fade-delay-3 { animation-delay: 1s; }
+
+/* KEYFRAMES */
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero-watch p {
+    text-align: center;
+}
+.modal-body {
+  background: #000 !important;
+}
+.modal-dialog {
+  background: transparent !important;
+}
+.hero-watch {
+    height: 100vh;
+    background: url('../img/wa5.jpg') no-repeat center/cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+/* DARK OVERLAY (same luxury effect as home) */
+.hero-watch::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+/* Keep text above overlay */
+.hero-watch div {
+    position: relative;
+    z-index: 2;
+}
