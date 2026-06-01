@@ -20,7 +20,6 @@ function See1 (){
 
   const [qty, setQty] = useState(1);
   const [size, setSize] = useState("S");
-  const [color, setColor] = useState("#000");
 
   const addToCart = () => {
     alert("Item added to your cart successfully!");
