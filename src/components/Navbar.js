@@ -22,15 +22,13 @@ function Navbar(){
 
           {/* PRODUCTS DROPDOWN */}
           <li className="nav-item dropdown">
-            <a
-              className="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              onClick={(e) => e.preventDefault()}
+           <button
+            className="nav-link dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
             >
               PRODUCTS
-            </a>
+            </button>
 
             <ul className="dropdown-menu">
               <li><Link className="dropdown-item" to="/fashion">Fashion</Link></li>
@@ -60,15 +58,13 @@ function Navbar(){
 
             {/* USER DROPDOWN */}
             <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle luxury-icon"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                onClick={(e) => e.preventDefault()}
+              <button
+              className="nav-link dropdown-toggle luxury-icon"
+              type="button"
+              data-bs-toggle="dropdown"
               >
                 <i className="fa-solid fa-user fa-lg"></i>
-              </a>
+              </button>
 
               <ul className="dropdown-menu dropdown-menu-end">
                 <li><Link className="dropdown-item" to="/registration">Registration</Link></li>

@@ -62,9 +62,9 @@ function Contact(){
         </div>
 
         <div className="contact-social">
-          <a href="#"><i className="fa-brands fa-instagram"></i></a>
-          <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i className="fa-brands fa-x-twitter"></i></a>
+         <a href="https://instagram.com"><i className="fa-brands fa-instagram"></i></a>
+        <a href="https://facebook.com"><i className="fa-brands fa-facebook-f"></i></a>
+        <a href="https://twitter.com"><i className="fa-brands fa-x-twitter"></i></a>
         </div>
 
       </div>
@@ -112,11 +112,12 @@ function Contact(){
 <div className="map">
 
   <iframe
-    src="https://maps.google.com/maps?q=surat&t=&z=13&ie=UTF8&iwloc=&output=embed"
-    width="100%"
-    height="450"
-    style={{ border: 0 }}
-  ></iframe>
+  title="Surat Location Map"
+  src="https://maps.google.com/maps?q=surat&t=&z=13&ie=UTF8&iwloc=&output=embed"
+  width="100%"
+  height="450"
+  style={{ border: 0 }}
+></iframe>
 
 </div>  
         </>
